@@ -1,0 +1,22 @@
+{
+    "preset": "laravel",
+    "rules": {
+        "simplified_null_return": true,
+        "braces": false,
+        "new_with_braces": {
+            "anonymous_class": false,
+            "named_class": false
+        },
+        "ordered_imports": {
+            "sort_algorithm": "length"
+        },
+        "binary_operator_spaces": {
+            "default": "align_single_space_minimal"
+        }
+    },
+    "notName": [
+        "*.blade.php",
+        "*.js",
+        "*.css"
+    ]
+}
